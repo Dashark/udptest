@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*
 
-file = raw_input('Please input inputFile name:')
-file2 = raw_input('Please input outputFile name:')
+file = input('Please input inputFile name:')
+file2 = input('Please input outputFile name:')
 with open(file, 'r') as f:
 	s = f.read()
 	n = len(s) / 126
